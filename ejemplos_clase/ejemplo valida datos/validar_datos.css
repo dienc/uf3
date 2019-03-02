@@ -1,0 +1,10 @@
+.registro {width:40%; padding:10px; margin:15px; border: 2px dashed #D7AAEC;background-color:#D7AAEC;}
+.fieldset {border:0;background-color: #E4C6F2; padding:10px 20px; width:90%;}
+.legend{font: bold 16px Arial, sans-serif;color:#9C2DD2; padding:0 5px;}
+.label {font:bold 12px Geneva, Arial, Helvetica, sans-serif; float: left;width:100%; text-align:left;padding:5px; color: #000000;}
+.br {clear: left;}
+.input {background:mediumslateblue; color:white}
+.enviar{margin:3px 0 0 83px;}
+#val_caja4, #val_caja1 {
+	display: none;	
+	}

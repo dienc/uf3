@@ -1,0 +1,37 @@
+#cajasoltar{
+float: left;
+width: 500px;
+height: 500px;
+margin: 10px;
+border: 1px solid #999999;
+}
+/*#soltar1, #soltar2, #soltar3, #soltar4, #soltar5, #soltar6, #soltar7, #soltar8, #soltar9{*/
+#cajasoltar > section {
+float: left;
+width: 150px;
+height: 150px;
+margin: 2px;
+border: 1px solid #000000;
+}
+
+#lienzo{
+float: left;
+width: 500px;
+height: 500px;
+}
+#cajaimagenes{
+float: left;
+width: 500px;
+height: 500px;
+margin: 10px;
+border: 1px solid #999999;
+}
+#cajaimagenes > img {
+padding: 5px;
+border: 1px solid black;
+}
+img{
+float: left;
+width: 150px;
+height: 150px;
+}
