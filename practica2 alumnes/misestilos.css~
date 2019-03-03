@@ -106,8 +106,13 @@ a{
 .content-prin-int-head{
 	background-color: palegreen;
 	}
+
 #formulari2 {
-	display: none;
+	display: block;
+	}
+
+#formulari3 {
+	display: block;
 	}
 
 #footer{

@@ -25,7 +25,7 @@ function pepe() {
 		form2.style.display="block";
 	} else {
 		form1.style.display="none";
-		form3.style.display="block";
+		form2.style.display="block";
 	}		
 }
 
