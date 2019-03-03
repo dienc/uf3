@@ -26,7 +26,8 @@ function pepe() {
 	} else {
 		form1.style.display="none";
 		form3.style.display="block";
-	}		
+	}
+	para.textContent="se ha elegido "+selector.value;
 }
 
 window.addEventListener('load', inicio, false);
