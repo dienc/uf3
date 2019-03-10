@@ -1,3 +1,6 @@
+/* id --> #
+	class --> .
+*/
 html{
 	background-color: blue;
 	}
@@ -98,22 +101,44 @@ a{
 	background-color: orange;
 	flex: 1;
 	order: 2;
+	display: flex;
+	flex-direction: column;
 	}
 	
 .content-prin-int{
 	background-color: beige;
+	display: flex;
+	flex-direction: column;
 	}
 	
 .content-prin-int-head{
 	background-color: palegreen;
+	display: flex;
+	flex-direction: row;
 	}
 
-.imagenes {
+#content-prin-int-main {
 	display: flex;
-/*	flex-flow: row wrap;*/
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
+	}
+.img_fletxa_dreta, .img_fletxa_esquerra {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 100px;
 }
-
+.img_fletxa_esquerra {
+	left: -40px;
+}
+.img_fletxa_dreta {
+	left: 40px;
+}
+.imagenes {
+	width: 180px;
+	height: 280px;
+}
 #footer{
 	background-color: brown;
 	flex: 0 0 60px;
