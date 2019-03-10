@@ -139,7 +139,7 @@ a{
 	width: 180px;
 	height: 280px;
 }
-#diapo2, #diapo3, #diapo4 {
+.diapo2, .diapo3, .diapo4 {
 	display: none;
 }
 #footer{

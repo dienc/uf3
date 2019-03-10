@@ -13,7 +13,7 @@ function inicio() {
 
 	contenedor=document.getElementById("diapositivas");
 	num_imagenes=contenedor.getElementsByTagName("img").length;
-//	alert(num_imagenes);
+	alert(num_imagenes);
 	}
 function avanzar() {
 //	alert("avanzar");	

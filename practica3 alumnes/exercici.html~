@@ -66,10 +66,9 @@
 						</a>
 					</article>
 					<article id="diapositivas">
-						<img class="imagenes" id="diapo1" src="images/1.jpg" alt="1"></img>
-						<img class="imagenes" id="diapo2" src="images/2.jpg" alt="2"></img>
-						<img class="imagenes" id="diapo3" src="images/3.jpg" alt="3"></img>
-						<img class="imagenes" id="diapo4" src="images/4.jpg" alt="4"></img>						
+						<img class="imagenes" src="images/1.jpg" alt="1"></img>
+						<img class="imagenes" src="images/2.jpg" alt="2"></img>
+						<img class="imagenes" src="images/3.jpg" alt="3"></img>						
 					</article>
 					<article class="fletxa_dreta">
 						<a id="fletxa_dreta">
