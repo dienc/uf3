@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="ca">
+<head>
+	<title>estructura</title>
+	<link rel="stylesheet" href="jquery/jquery-ui.css">
+  	<script src="jquery/jquery.js"></script>
+  	<script src="jquery/jquery-ui.js"></script>
+	<link rel="stylesheet" href="misestilos.css">
+	<script src="exercici.js"></script>
+</head>
+<body>
+	<header id="header">
+		<section id="header-title">
+			<section id="header-prin">
+			<h1>TITULO PRINCIPAL</h1>
+			</section>
+			<section id="header-foto">
+				<img id="img-cv" src="cv.jpeg"></img>
+			</section>
+		</section>
+		<section id="header-subtitle">
+			<p>de Diego Nistal</p>
+		</section>
+	</header>
+	<nav id="nav">
+		<section class="link">
+			<a href="http://127.0.0.1/practica1/exercici1.html">exercici 1</a>
+		</section>
+		<section class="link">
+			<a href="http://127.0.0.1/practica2/exercici2.html">exercici 2</a>
+		</section>
+	</nav>
+	<section id="content">
+		<aside id="content-nav">
+			<div id="accordion">
+			<h3>1</h3>
+				<div>
+					<p>
+					Dades 1					
+					</p>				
+				</div>
+			<h3>2</h3>
+				<div>
+					<ul>
+						<li><a href="#2.1">2.1</a></li>
+						<li><a href="#2.2">2.2</a></li>
+					</ul>
+				</div>
+			</div>
+		</aside>
+
+		<section id="content-prin">
+			<section class="content-prin-int">	
+				<section class="content-prin-int-head">
+					<section class="content-prin-int-head-logo">			
+					</section>
+					<section class="content-prin-int-head-title">
+						<h2>titulo imagen</h2>
+					</section>
+				</section>
+				<section id="content-prin-int-main">
+					<article id="diapositivas1">
+						<a id="en1"><img class="imagenes" id="diapo1" src="images/reverso.jpg" alt="1"></img></a>
+						<a id="link2"><img class="imagenes" id="diapo2" src="images/reverso.jpg" alt="2"></img></a>
+						<a id="link3"><img class="imagenes" id="diapo3" src="images/reverso.jpg" alt="3"></img></a>
+					</article>
+					<article id="diapositivas2">
+						<a id="link4"><img class="imagenes" id="diapo4" src="images/reverso.jpg" alt="4"></img></a>
+						<a id="link5"><img class="imagenes" id="diapo5" src="images/reverso.jpg" alt="5"></img></a>
+						<a id="link6"><img class="imagenes" id="diapo6" src="images/reverso.jpg" alt="6"></img></a>
+					</article>
+					<article id="diapositivas3">
+						<a id="link7"><img class="imagenes" id="diapo7" src="images/reverso.jpg" alt="7"></img></a>
+						<a id="link8"><img class="imagenes" id="diapo8" src="images/reverso.jpg" alt="8"></img></a>
+						<a id="link9"><img class="imagenes" id="diapo9" src="images/reverso.jpg" alt="9"></img></a>
+					</article>
+				</section>
+			</section>
+			
+		</section>   
+		</section>
+</section> 
+<footer id="footer">
+	<section id="foot_tit">
+		<h3>
+		Pagina creada per: 
+		</h3>
+	</section>
+	<section  id="foot_contacte">
+		<a href="https://docs.google.com/a/institutmvm.cat/forms/d/1tx7qOh7wlfK-CFN1p1AcfYDc_zPrngL95S4k69-6PDw/viewform">email personal</a>
+	</section>
+	<section id="foot_data">31/10/2014</section>
+</footer> 
+</body>
+</html>
