@@ -25,7 +25,7 @@ function inicio() {
 
 function derecha() {
 	m = parseInt(diapo.style.left);
-	if (m>=360) {
+	if (m>=360) {		//no variamos left, solo en else
 	} else {
 		diapo.style.left = parseInt(diapo.style.left) + 40 + 'px';
 	}
