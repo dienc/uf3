@@ -1,0 +1,15 @@
+//ARXIU JAVASCRIPT
+
+
+function lee(){
+	var moneda = document.getElementById("cambio").value;
+	var cantidad = document.getElementById("cantidad").value;
+	$.getJSON("https://api.fixer.io/latest", function(data){
+	var valor=data.rates.moneda;
+	
+	var total=valor*cantidad
+		document.write(cantidad+" Euros son "+total+" "+moneda+"<br>");
+	document.write("<br>USD: "+data.rates.moneda);
+	} );
+
+}

@@ -1,0 +1,20 @@
+[{	
+	"partido": "Partido Reformista",
+	"votos": 1325414,
+	"color":"#ff0000"
+		},
+	{	
+	"partido": "Partido Vanguardista",
+	"votos": 751247,
+	"color":"#000080"
+		},
+	{	
+	"partido": "Centro derechista",
+	"votos": 258745,
+	"color":"#ffff00"
+		},
+	{
+	"partido": "Unión y Revolución",
+	"votos": 125997,
+	"color":"#008000"
+		}]
