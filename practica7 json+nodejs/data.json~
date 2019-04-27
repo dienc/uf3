@@ -1,0 +1,2 @@
+dades = '[{"caja": "text", "id":"nom", "text":"Posa el teu nom: "},
+{"caja": "password", "id":"passw", "text":"Posa una password: "}]';

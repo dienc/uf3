@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="ca">
+<head>
+	<meta charset="utf-8" /> 
+	<title>estructura</title>
+	<link rel="stylesheet" href="misestilos.css">
+	<script type="text/javascript" src="json.js"></script>
+	<script type="text/javascript" src="dades.json"></script>
+</head>
+<body>
+	<header id="header">
+		<section id="header-title">
+			<section id="header-prin">
+			<h1>TITULO PRINCIPAL</h1>
+			</section>
+			<section id="header-foto">
+				<img id="img-cv" src="cv.jpeg"></img>
+			</section>
+		</section>
+		<section id="header-subtitle">
+			<p>PER LA MATÈRIA DEL MÒDUL DE DUAL</p>
+		</section>
+		
+	</header>
+	<nav id="nav">
+		<section class="link">
+			<a href="http://127.0.0.1/practica1/exercici1.html">exercici 1</a>
+		</section>
+		<section class="link">
+			<a href="http://127.0.0.1/practica2/exercici2.html">exercici 2</a>
+		</section>
+	</nav>
+	<section id="content">
+		<aside id="content-nav">
+			<div id="accordion">
+			<h3>1</h3>
+				<div>
+					<p>
+					Dades 1					
+					</p>				
+				</div>
+			<h3>2</h3>
+				<div>
+					<ul>
+						<li><a href="#2.1">2.1</a></li>
+						<li><a href="#2.2">2.2</a></li>
+					</ul>
+				</div>
+			</div>
+		</aside>
+
+		<section id="content-prin">
+
+		<section class="content-prin-int">
+			
+			<section class="content-prin-int-head" id="formulari2">
+				<section class="content-prin-int-head-logo">			
+				</section>
+				<section class="content-prin-int-head-title">
+					<h2>FORMULARI MOTO</h2>
+				</section>
+				<article>
+				<form method="post" enctype="text/plain" id="form2">
+				</form>
+				</article>
+			</section>
+		</section>
+		
+   	</section>
+   </section>
+<footer id="footer">
+	<section id="foot_tit">
+		<h3>
+		Pagina creada per: 
+		</h3>
+	</section>
+	<section  id="foot_contacte">
+		<a href="https://docs.google.com/a/institutmvm.cat/forms/d/1tx7qOh7wlfK-CFN1p1AcfYDc_zPrngL95S4k69-6PDw/viewform">email personal</a>
+	</section>
+	<section id="foot_data">31/10/2014</section>
+</footer> 
+</body>
+</html>

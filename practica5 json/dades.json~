@@ -1,0 +1,1 @@
+dades1 = '[{"caja": "text", "id":"nom", "text":"Posa el teu nom: "},{"caja": "password", "id":"passw", "text":"Posa una password: "},{"caja": "select", "id":"seleccio", "text": "marques", "valors": "kawasaki+yamaha+honda"}]';
