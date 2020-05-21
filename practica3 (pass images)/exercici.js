@@ -33,22 +33,4 @@ function avanzar() {
 	diapositiva2=document.getElementById(nombre_diapo);
 	diapositiva2.style.display="block";
 }
-function retroceder() {
-//	alert("retroceder");
-	nombre_diapo="diapo"+diapo;
-	diapositiva1=document.getElementById(nombre_diapo);
-	diapositiva1.style.display="none";
-	//actualizo a la nueva diapositiva
-	
-	if (diapo==1)
-		diapo=num_imagenes;
-	else
-		diapo--;
-		
-	nombre_diapo="diapo"+diapo;
-	//alert(nombre_diapo);
-	//que aparezca la nueva diapositiva
-	diapositiva2=document.getElementById(nombre_diapo);
-	diapositiva2.style.display="block";
-}
 window.addEventListener("load",inicio, false);
